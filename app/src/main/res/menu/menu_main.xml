@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hayahuletbole.bole22.ShopPortalActivity">
+
+    <item
+        android:id="@+id/jobs_activity"
+        android:orderInCategory="100"
+        android:title="@string/jobs"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/business_portal_activity"
+        android:orderInCategory="101"
+        android:title="@string/business_portal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="102"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+</menu>
